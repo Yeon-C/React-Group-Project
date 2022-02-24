@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Form from "./Form";
 import TweetList from "./TweetList";
+import './css/TwitterPage.css'
 
 const TwitterPage = (props) => {
   const [tweets, setTweets] = useState([]);

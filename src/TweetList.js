@@ -1,4 +1,5 @@
 import React from "react";
+import './css/TweetList.css'
 
 const TweetList = (props) => {
   let tweetList = props.tweets.map((tweet, index) => {
