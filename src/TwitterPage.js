@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Form from "./Form";
 import TweetList from "./TweetList";
-import './css/TwitterPage.css'
-
 
 const TwitterPage = (props) => {
   const [tweets, setTweets] = useState([]);
@@ -20,38 +18,32 @@ const TwitterPage = (props) => {
     );
   };
 
+  const editTweet = (index, tweet) => {
+    setTweets( // setTweets(tweets.map((tweet, idx) => {
+        tweets.map((tweet, idx) => {
+            if (idx === index) {
+                return tweet.Form;
+            } else {
+                return tweet;
+            }
+        })
+    );
+    };
+
+
   return (
     <div>
-      <h1 className="header">{username}'s Twitter</h1>
-      <div className="card tweet-container">
-        <Form handleSubmit={handleSubmit} />
-        <TweetList
-          tweets={tweets}
-          username={username}
-          removeTweet={removeTweet}
-        />
-      </div>
+      <h1>TwitterPage of {username}</h1>
+      <hr />
+      <h2>Add new tweet </h2>
+      <Form handleSubmit={handleSubmit} />
+      <hr />
+      <TweetList
+        tweets={tweets}
+        username={username}
+        removeTweet={removeTweet}
+      />
     </div>
-
-    // <div>
-    //   <div className="card text-center">
-    //     <div className="card-header">
-    //       <h1>{username}'s Twitter</h1>
-    //     </div>
-    //     <hr/>
-    //     <div className="card-body">
-    //       <Form handleSubmit={handleSubmit}/>
-    //       <hr/>
-    //     </div>
-    //      <TweetList
-    //       tweets={tweets}
-    //       username={username}
-    //       removeTweet={removeTweet}
-    //     />          
-    //   </div>
-    // </div>
-
-
   );
 };
 
