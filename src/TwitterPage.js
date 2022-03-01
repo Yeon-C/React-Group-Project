@@ -25,7 +25,6 @@ const TwitterPage = (props) => {
       <h1 className="header">{username}'s Twitter</h1>
       <div className="card tweet-container">
         <Form handleSubmit={handleSubmit} />
-        <hr />
         <TweetList
           tweets={tweets}
           username={username}

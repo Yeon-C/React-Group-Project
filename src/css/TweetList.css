@@ -5,14 +5,76 @@
 
 }
 
+
+
 .tweet-list{
-    border: 1px solid grey;
+    border: 0.5px solid #657786;
+}
+
+.tweet-list-icons  {
+    cursor: pointer;
+    align-items: center;
+    color: #AAB8C2;
+    display: flex;
+    flex-shrink: 2;
+
 
 }
 
-.icons {
+.tweet-list-icon {
+    margin: 0 3em;
+
 }
 
-.icon {
-    padding: 3px;
+
+.tweet-bar {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
+
+
+.tweet-bar-item {
+    margin: 0.4em 0.3em;
+}
+
+.ellipses {
+    float: right;   
+    padding-right: 0.4em;
+    color: #657786;
+}
+
+.card-text {
+    display: flex;
+    max-width: 90%;
+}
+
+
+.image-icon-tweet-list {
+    width: 45px;
+    float: left;
+    margin: 0.4em 0.2em 0.4em 0;
+}
+
+
+@media only screen and (max-width: 1317px) {
+
+    .tweet-list-icon {
+        margin: 0 2em;
+    
+    }
+  
+    .tweet-list-icons .upload {
+        display: none;
+    }
+    
+    }
+
+    @media only screen and (max-width: 280px) {
+    
+        .tweet-list-icon {
+            margin: 0 0.4rem;
+        }
+        
+        }
+    

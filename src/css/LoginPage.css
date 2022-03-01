@@ -52,7 +52,7 @@ body {
 }
 
 .form label {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 2rem;
     margin-right: 0.5em;
 }
@@ -64,9 +64,9 @@ body {
 
 .form button {
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 2em;
-    margin-left: 4em;
+    margin-left: 13rem;
     padding: 1em 6em;
     border-radius: 40px;
  }
@@ -75,5 +75,20 @@ body {
     font-size: 50px;
     padding: 40px 0 0 50px ;
  }
+
+
+ @media only screen and (max-width: 1317px) {
+    .form button {
+       
+        margin-left: 2em;
+        
+     }
+   
+     .background-image {
+        height: 100%;
+    
+    }
+    
+    }
 
 
