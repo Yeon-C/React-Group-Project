@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.image-icon {
+    background-image: url(./images/icon-image.png);
+}
+
+.tweet-box {
+    background-color: black ;
+    width: 100%;
+    border: 1px solid grey;
+
+}
+
+.tweet-box .tweet-box-input {
+    background-color: black;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 1em;
+
+}
+
+
+
+.icons{
+    color: #1DA1F2;
+
+}
+
+.icon {
+    padding: 3px;
+    float: left;
+}
+
+.tweet-box .tweet-box-button {
+    background-color: #1DA1F2;
+    color: white;
+    border-radius: 24px;
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-left: 30px;
+
+
+}
+
+.image-icon {
+    width: 30px;
+    float: left;
+}
+
+
+

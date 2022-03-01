@@ -1,4 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
 * {
     font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.header {
+    color:white;
+}
+
+.card {
+    background-color: black;
+    color:white;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.card-header h1 {
+    width: 100%;
+    float: left;
 }
 

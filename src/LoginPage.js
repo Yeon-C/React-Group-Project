@@ -6,6 +6,7 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
+
 const LoginPage = (props) => {
   return (
     <div className="float-container">
