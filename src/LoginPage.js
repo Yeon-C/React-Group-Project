@@ -1,13 +1,18 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import './css/LoginPage.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+import React, {useState} from "react";
+import { useNavigate } from "react-router-dom";
+import "./css/LoginPage.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
+const LoginPage = () => {
+  let navigate = useNavigate();
 
-const LoginPage = (props) => {
+  const [username, setUsername] = useState("");
+
+  const handleChange = (e) => {
+    setUsername(e.target.value);
+  };
+
   return (
     <div className="float-container">
       <div className="background-image float-child"></div>
@@ -22,12 +27,19 @@ const LoginPage = (props) => {
               type="text"
               name="username"
               id="username"
-              value={props.username}
-              onChange={props.handleChange}
+              value={username}
+              onChange={handleChange}
             />
-            <Link to="/twitter">
-              <div><button>Submit</button></div>
-            </Link>
+
+            <div>
+              <button
+                onClick={() => {
+                  navigate("/twitter/" + username);
+                }}
+              >
+                Submit
+              </button>
+            </div>
           </form>
         </div>
       </div>
