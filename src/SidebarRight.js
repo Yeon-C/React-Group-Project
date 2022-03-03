@@ -10,7 +10,7 @@ import dogicon from './css/images/dog-icon.png';
     const SidebarRight = () => {
         return (
             <div>
-                <input class="form-control me-2 search-bar" type="search" placeholder="Search" aria-label="Search" />
+                <input class="form-control me-2 search-bar" type="search" placeholder="Search Twitter" aria-label="Search" />
                     <div class="card news">
                         <div className="card-header">
                             <h4>What's happening</h4>

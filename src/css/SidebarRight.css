@@ -10,6 +10,8 @@
     color: #657786;
     border-radius: 25px;
     border-color: black;
+    padding: 0.5em 2em;
+    margin-top: 5px-;
 }
 
 .search-bar:focus {
