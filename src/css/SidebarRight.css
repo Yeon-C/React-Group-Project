@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+
+.search-bar {
+    background-color: rgb(33, 35, 39);
+    color: #657786;
+    border-radius: 25px;
+    border-color: black;
+}
+
+.search-bar:focus {
+    background-color: black;
+    color: #657786;
+    border-color: #1DA1F2;
+}
+
+.news {
+    background-color: rgb(22, 24, 28);
+    border-radius: 25px;
+    margin: 1rem auto;
+    color: #d9d9d9;
+}
+
+.news .card-header h4 {
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.news-row {
+    margin-bottom: 1rem;
+}
+
+.news-row .title {
+    display: flex;
+    align-items: center;
+}
+
+
+.news-row .title .news-icons {
+    margin-bottom: 8px;
+    width: 9%;
+}
+
+.news-row .title .verified {
+    width: 7%;
+}
+
+
+.news-row .title h6, p, img{
+    padding-right: 5px;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+.news-row .headline h5{
+    font-size: 18px;
+}
+
+.news-row .closing {
+    display: flex;
+    align-items: center;
+}
+
+.news-row .closing h6, a {
+    padding-right: 5px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.news-row .closing a {
+    text-decoration: none;
+    align-items: center;
+    color: #1DA1F2;
+
+}
+
+.follow {
+    background-color: rgb(22, 24, 28);
+    border-radius: 25px;
+    margin: 1em auto;
+    color: #d9d9d9;
+}
+
+.follow .card-header h4 {
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 1rem;
+
+}
+
+
+.follow-container {
+    display: flex;
+    padding: 1em;
+}
+
+
+.follow-container .follow-icon img {
+    border-radius: 25px;
+    margin-right: 10px ;
+    width: 50px;
+}
+
+.follow-button {
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    margin-left: 10px;
+}

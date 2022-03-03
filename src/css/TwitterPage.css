@@ -2,17 +2,22 @@
 
 * {
     font-family: 'IBM Plex Sans', sans-serif;
-
+    
 }
 
-.header {
-    color:white;
+.twitter-icon {
+    color: #d9d9d9;
+    width: 50px;
+    margin-top: -25px;
+    margin-left: -40px;
+    width: 10%;
+
 }
 
 .card {
     background-color: black;
-    color:white;
-    width: 45%;
+    color: #d9d9d9;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -21,10 +26,17 @@
     float: left;
 }
 
+
 @media only screen and (max-width: 965px) {
     
 .card {
     width: 100%;
 }
+
+.sidebar-left, .sidebar-right {
+    display: none;
+}
+
+
 
 }

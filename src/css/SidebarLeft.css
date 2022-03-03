@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+
+.sidebar-icon-group {
+    padding: 1em;
+    cursor: pointer;
+}
+
+.sidebar-icon-group-button {
+    padding: 1em;
+    cursor: pointer;
+}
+
+.sidebar-icon-group:hover {
+    background-color: rgb(33, 35, 39);
+    border-radius: 25px;
+
+}
+
+.sidebar-icon {
+    color: #d9d9d9;
+    margin-right: 1em;
+    font-size: 25px;
+
+}
+
+.sidebar-icon-label {
+    color: #d9d9d9;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.sidebar-button {
+    background-color: #1DA1F2;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    padding: 1em 5em;
+    font-weight: 700;
+    margin-top: 2em;
+    
+}
+
+.sidebar-button:hover {
+    background-color: #2095dd;
+
+}
+
+.profile-container {
+    display: flex;
+    padding: 1em;
+}
+
+.image-icon-profile {
+    width: 50px;
+}
+
+.profile-ellipses {
+    margin-left: 50px
+}
