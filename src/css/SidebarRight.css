@@ -45,11 +45,11 @@
 
 .news-row .title .news-icons {
     margin-bottom: 8px;
-    width: 9%;
+    width: 30px;
 }
 
 .news-row .title .verified {
-    width: 7%;
+    width: 20px;
 }
 
 
@@ -143,5 +143,6 @@
         display: none;
     }
 
+    
  
 }
