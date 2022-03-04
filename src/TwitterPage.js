@@ -3,11 +3,8 @@ import Form from "./Form";
 import TweetList from "./TweetList";
 import "./css/TwitterPage.css";
 import { useParams } from "react-router-dom";
-import { NavigationBar } from "./NavBarComponents/Navbar";
-import Sidebar from "./NavBarComponents/Sidebar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faBell, faBookmark, faEllipsis, faEnvelope, faFileLines, faHashtag, faHome, faUser,  } from '@fortawesome/free-solid-svg-icons';
 import SidebarLeft from "./SidebarLeft";
 import SidebarRight from "./SidebarRight";
 
@@ -33,22 +30,21 @@ const TwitterPage = () => {
 
   return (
     <div>
-      {/* <NavigationBar /> */}
-      {/* <Sidebar /> */}
-      {/* <h1 className="header">{user}'s Twitter</h1> */}
       <div className="container columns">
-        <div className="row row-cols-sm-2 rows-cols-md-2">
-          <div className="col-sm-3 column column-left">
-            <FontAwesomeIcon icon={faTwitter} className="twitter-icon" />
+        <div className="row ">
+          <div className= "col-md-1 col-l-3 col-xl-3 column column-left">
+            <a href="/">
+              <FontAwesomeIcon icon={faTwitter} className="twitter-icon" />
+            </a>
             <SidebarLeft username={user} />
           </div>
-          <div className="col-sm-6 column">
+          <div className= "col-sm-12 col-md-11 col-l-6 col-xl-6 column">
             <div className="card tweet-container">
               <Form handleSubmit={handleSubmit} />
               <TweetList tweets={tweets} username={user} removeTweet={removeTweet} />
             </div>
           </div>
-          <div className="col-sm-3 column column-right">
+          <div className="col-sm-12 col-md-12 col-l-3 col-xl-3 column column-right">
             <SidebarRight />
           </div>
         </div>

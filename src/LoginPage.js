@@ -17,7 +17,9 @@ const LoginPage = () => {
     <div className="float-container">
       <div className="background-image float-child"></div>
       <div className="login-form float-child">
-        <FontAwesomeIcon icon={faTwitter} className="twitter-icon" />
+        <a href="/">
+          <FontAwesomeIcon icon={faTwitter} className="twitter-icon" />
+        </a>
         <h1>Mock Twitter</h1>
         <h2>Sign in</h2>
         <div className="form">
@@ -30,12 +32,9 @@ const LoginPage = () => {
               value={username}
               onChange={handleChange}
             />
-
             <div>
               <button
-                onClick={() => {
-                  navigate("/twitter/" + username);
-                }}
+                onClick={() => { username.length > 0 ? navigate("/twitter/" + username) : alert("Please enter a username.")}}
               >
                 Submit
               </button>

@@ -1,7 +1,7 @@
 import React from "react";
 import './css/TweetList.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faComment, faRetweet, faHeart, faUpload, faTrash, faChartArea, faEllipsis } from '@fortawesome/free-solid-svg-icons';
+import { faComment, faRetweet, faHeart, faUpload, faTrash, faEllipsis } from '@fortawesome/free-solid-svg-icons';
 import icon from './css/images/icon-image.png';
 
 
@@ -25,7 +25,6 @@ const TweetList = (props) => {
             <FontAwesomeIcon icon={faRetweet} className="tweet-list-icon retweet"/>
             <FontAwesomeIcon icon={faHeart} className="tweet-list-icon heart"/>
             <FontAwesomeIcon icon={faUpload} className="tweet-list-icon upload"/>
-            {/* <FontAwesomeIcon icon={faChartArea} className="tweet-list-icon chart"/> */}
             <span onClick={() => props.removeTweet(index)}><FontAwesomeIcon icon={faTrash} className="tweet-list-icon delete"/></span>
         </div>
         </div>

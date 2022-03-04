@@ -11,7 +11,7 @@
 
 
 .tweet-box {
-    background-color: black ;
+    background-color: black;
     border: 0.5px solid #657786;
     width: 100%;
 }
@@ -37,7 +37,7 @@
     outline: none;
 }
 
-.icons{
+.icons {
     color: #1DA1F2;
     align-items: center;
     cursor: pointer;
@@ -67,11 +67,9 @@
 
 
 @media only screen and (max-width: 280px) {
-    
+
     .tweet-box .tweet-box-button {
-       margin-top: 1em;
-    }
-    
+        margin-top: 1em;
     }
 
-
+}

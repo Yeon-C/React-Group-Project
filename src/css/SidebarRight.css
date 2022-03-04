@@ -96,22 +96,52 @@
 
 }
 
+.follow-name, .follow-account {
+    font-size: 17px;
+}
+
 
 .follow-container {
     display: flex;
-    padding: 1em;
+    padding: 1rem;
+    cursor: pointer;
 }
 
 
 .follow-container .follow-icon img {
     border-radius: 25px;
-    margin-right: 10px ;
+    margin-right: 1rem ;
     width: 50px;
 }
 
-.follow-button {
+.follow-verified {
+    width: 25px;
+    display: block;
+}
+
+.follow-button-one {
     font-weight: 700;
     padding: 0.5rem 1rem;
     border-radius: 30px;
-    margin-left: 10px;
+    font-size: 14px;
+
+
+}
+
+.follow-button-two {
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    margin-left: 70px;
+    font-size: 14px;
+
+}
+
+@media only screen and (max-width: 1201px) {
+
+    .search-bar {
+        display: none;
+    }
+
+ 
 }

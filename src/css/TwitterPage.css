@@ -11,7 +11,8 @@
     margin-top: -25px;
     margin-left: -40px;
     width: 10%;
-
+    margin-bottom: 0.5em;
+    cursor: pointer;
 }
 
 .card {
@@ -27,16 +28,19 @@
 }
 
 
-@media only screen and (max-width: 965px) {
-    
-.card {
-    width: 100%;
+@media only screen and (max-width: 1201px) {
+
+    .twitter-icon {
+        display: none;
+    }
+
+ 
 }
 
-.sidebar-left, .sidebar-right {
-    display: none;
-}
+@media only screen and (max-width: 992px) {
 
-
-
+    .column-left {
+        display: none;
+    }
+ 
 }

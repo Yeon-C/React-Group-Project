@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import './css/Form.css'
+import './css/Form.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faImage, faChartBar, faFaceSmile, faCamera, faCalendarDays,faLocationDot } from '@fortawesome/free-solid-svg-icons';
-import icon from './css/images/icon-image.png'
+import icon from './css/images/icon-image.png';
 
 
 

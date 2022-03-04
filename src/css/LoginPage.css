@@ -7,13 +7,13 @@
 
 body {
 
- background-color: black;
-    
+    background-color: black;
+
 }
 
 .float-container {
     display: grid;
-    grid-template-columns: 1.2fr 1fr ;  
+    grid-template-columns: 1.2fr 1fr;
 
 }
 
@@ -34,19 +34,19 @@ body {
 .login-form h1 {
     font-weight: 700;
     font-size: 5rem;
-    margin-top: 1.5em; 
+    margin-top: 1.5em;
     margin-left: 1em;
 }
 
 .login-form h2 {
     font-weight: 700;
     font-size: 2rem;
-    margin-top: 2em; 
+    margin-top: 2em;
     margin-left: 3em;
 }
 
 .form {
-    margin-top: 4em; 
+    margin-top: 4em;
     margin-left: 3em;
     padding: 2em 2em;
 }
@@ -58,7 +58,7 @@ body {
 }
 
 .form input {
-   font-size: 2rem;
+    font-size: 2rem;
 
 }
 
@@ -69,26 +69,24 @@ body {
     margin-left: 13rem;
     padding: 1em 6em;
     border-radius: 40px;
- }
+}
 
- .twitter-icon {
+.twitter-icon {
     font-size: 50px;
-    padding: 40px 0 0 50px ;
- }
+    padding: 40px 0 0 50px;
+}
 
 
- @media only screen and (max-width: 1317px) {
+@media only screen and (max-width: 1317px) {
     .form button {
-       
+
         margin-left: 2em;
-        
-     }
-   
-     .background-image {
+
+    }
+
+    .background-image {
         height: 100%;
-    
-    }
-    
+
     }
 
-
+}

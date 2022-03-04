@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
 
 * {
-    font-family: 'IBM Plex Sans', sans-serif;
+   font-family: 'IBM Plex Sans', sans-serif;
 
 }
 
- .errorPageH1 {
-    font-weight: 700;
-    font-size: 5rem;
-    margin-top: 1.5em; 
-    margin-left: 1em;
-     color: #d9d9d9;
+.errorPageH1 {
+   font-weight: 700;
+   font-size: 5rem;
+   margin-top: 1.5em;
+   margin-left: 1em;
+   color: #d9d9d9;
 }
 
- .errorPageH2 {
-    font-weight: 700;
-    font-size: 2rem;
-    margin-top: 2em; 
-    margin-left: 3em;
-     color: #d9d9d9;
+.errorPageH2 {
+   font-weight: 700;
+   font-size: 2rem;
+   margin-top: 2em;
+   margin-left: 3em;
+   color: #d9d9d9;
 }
 
- @media only screen and (max-width: 1317px) {
-    .errorPageH2 {
-       
-        margin-left: 2em;
-        
-     }
-    
-    }
+@media only screen and (max-width: 1317px) {
+   .errorPageH2 {
+
+      margin-left: 2em;
+
+   }
+
+}
