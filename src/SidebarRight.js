@@ -88,7 +88,7 @@ import trexicon from './css/images/trex-icon.png';
                                     <div>
                                         <img className ="follow-verified" src={verified} alt="Verified tick"></img>
                                     </div>
-                                    <div>
+                                    <div className="follow-button">
                                         <input type="button" value="Follow" className="follow-button-one"></input>  
                                     </div>
                                 </div>            
@@ -105,7 +105,7 @@ import trexicon from './css/images/trex-icon.png';
                                     <div>
                                         <img className ="follow-verified" src={verified} alt="Verified tick"></img>
                                     </div>
-                                    <div>
+                                    <div className="follow-button">
                                         <input type="button" value="Follow" className="follow-button-two"></input> 
                                     </div>
                                 </div>            

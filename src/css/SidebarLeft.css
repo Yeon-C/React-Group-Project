@@ -76,7 +76,7 @@ a {
 
     .sidebar-icon {
         font-size: 40px;
-        padding-right: 100px;
+        padding-right: 8rem;
     }
 
     .sidebar-button {
@@ -88,4 +88,26 @@ a {
     }
 
 }
+
+
+@media only screen and (max-width: 765px) {
+
+    .left-sidebar {
+        display: flex;
+
+    }
+
+    .sidebar-icon {
+        font-size: 40px;
+        padding: 1rem 0.5rem;
+    }
+
+    .bookmark-icon, .lines-icon, .ellipses-icon {
+        display: none;
+    }
+
+}
+
+
+
 

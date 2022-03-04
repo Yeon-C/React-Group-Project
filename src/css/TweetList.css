@@ -57,10 +57,10 @@
 }
 
 
-@media only screen and (max-width: 1317px) {
+@media only screen and (max-width: 1024px) {
 
     .tweet-list-icon {
-        margin: 0 2em;
+        margin: 0 1.6em;
     
     }
   
@@ -73,7 +73,7 @@
     @media only screen and (max-width: 280px) {
     
         .tweet-list-icon {
-            margin: 0 0.4rem;
+            margin: 0 0.8rem;
         }
         
     }
