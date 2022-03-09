@@ -1,23 +1,11 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import { useNavigate } from "react-router-dom";
 import "./css/LoginPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-//firebase auth
-import { auth, provider } from "./firebaseConfig";
-import { signInWithPopup } from "firebase/auth";
 
 const LoginPage = () => {
   let navigate = useNavigate();
-
-  const signInWithGoogle = () => {
-    signInWithPopup(auth, provider).then((result) => {
-      // stays logged in if you close tab --> stores in local storage
-      localStorage.setItem("isAuth", true);
-      // setIsAuth(true);
-      navigate("/twitter/" + auth.currentUser.displayName);
-    });
-  };
 
   const [username, setUsername] = useState("");
 
@@ -33,11 +21,8 @@ const LoginPage = () => {
           <FontAwesomeIcon icon={faTwitter} className="twitter-icon" />
         </a>
         <h1>Mock Twitter</h1>
-        <h2>Sign in with Google</h2>
+        <h2>Sign in</h2>
         <div className="form">
-          <button onClick={signInWithGoogle}> Login </button>
-        </div>
-        {/* <div className="form">
           <form>
             <label htmlFor="username">Username</label>
             <input
@@ -55,7 +40,7 @@ const LoginPage = () => {
               </button>
             </div>
           </form>
-        </div> */}
+        </div>
       </div>
     </div>
   );
