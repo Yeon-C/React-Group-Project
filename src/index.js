@@ -5,13 +5,6 @@ import TwitterPage from "./TwitterPage";
 import LoginPage from "./LoginPage";
 import ErrorPage from "./ErrorPage";
 
-
-// function Index() {
-//     const [isAuth, setIsAuth] = useState(false);
-
-// }
-
-
 ReactDOM.render(
   <React.StrictMode>
     <Router>
